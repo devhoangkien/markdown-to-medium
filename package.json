@@ -1,0 +1,22 @@
+{
+  "name": "markdown-to-medium",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Convert markdown to Medium-compatible format - Built with Nuxt 4",
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "marked": "^15.0.0",
+    "nuxt": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "vue-tsc": "^2.2.0"
+  }
+}
